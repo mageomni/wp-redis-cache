@@ -1,0 +1,27 @@
+{
+	"name": "mageomni/redis-cache",
+	"version": "2.4.4",
+	"description": "A persistent object cache backend powered by Redis. Supports Predis, PhpRedis, Relay, replication, sentinels, clustering and WP-CLI.",
+	"license": "GPLv3r",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"wordpress",
+		"redis"
+	],
+	"authors": [
+		{
+			"name": "Till Krüss",
+			"homepage": "https://objectcache.pro"
+		}
+	],
+	"homepage": "https://wp.mageomni.com/redis-cache",
+	"require": {
+		"php": "^7.2.5 || ^8.0",
+		"composer/installers": "^1.12 || ^2.0"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
